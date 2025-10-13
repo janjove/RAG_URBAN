@@ -1,0 +1,65 @@
+# ===============================
+# Projecte RAG amb Streamlit
+# ===============================
+
+# 🔒 Fitxers secrets
+.env
+*.key
+*.pem
+
+# 📦 Fitxers i carpetes temporals
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# 🧠 Models, índexs i dades grans
+*.faiss
+*.bin
+*.pt
+*.npy
+*.npz
+*.pkl
+*.jsonl
+*.csv
+*.tsv
+
+# (si tens documents grans o originals)
+data/
+datasets/
+outputs/
+results/
+
+# 🧰 Entorns virtuals
+venv/
+.venv/
+env/
+.env/
+conda_env/
+.conda/
+
+# 📊 Fitxers de Streamlit i cache
+.streamlit/
+.streamlit_cache/
+.cache/
+*/__pycache__/
+
+# 🧪 Fitxers d'experiments o notebooks
+*.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# 💻 Fitxers del sistema operatiu
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 🚀 Fitxers de desplegament opcionals
+*.sqlite3
+*.db
+
+# 📝 Altres fitxers de configuració
+*.txt
+*.md
+*.pdf
+*.json
